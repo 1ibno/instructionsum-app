@@ -27,9 +27,10 @@ export async function POST(req: Request) {
 Rules:
 - Extract 4-8 actionable steps
 - Number each step (1. 2. 3. etc.)
-- Each step: 6-12 words, imperative mood
-- Start with a verb (Do, Create, Open, Click, etc.)
-- No filler, no context, just the action
+- Each step: 4-8 words maximum
+- Start with a verb
+- Cut all filler words: "after," "during," "from," "by," "when," etc.
+- No context, no qualifiers, just the core action
 - No introductory text
 
 Text:
