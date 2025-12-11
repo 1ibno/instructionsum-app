@@ -367,7 +367,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
           <div className="flex gap-4">
             <a href="https://sumkit.app" target="_blank" rel="noopener noreferrer" className="text-xs text-text-secondary transition-colors hover:text-text-primary">SumKit.app</a>
             <span className="text-text-muted">|</span>
-            <a href="/contact" className="text-xs text-text-secondary transition-colors hover:text-text-primary">Contact</a>
+            <a href="https://sumkit.app/contact?from=instructionsum" className="text-xs text-text-secondary transition-colors hover:text-text-primary">Contact</a>
           </div>
         </footer>
       </div>
