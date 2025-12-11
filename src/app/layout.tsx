@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "InstructionSum – Extract Actionable Steps from Any Text",
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         {children}
+		<Analytics />
       </body>
     </html>
   );
