@@ -168,6 +168,12 @@ setSummary("Error: Failed to convert to steps. Please try again.");
           <p className="mt-3 max-w-[520px] text-body text-text-secondary">
             Paste text below and Convert clear, numbered instructions.
           </p>
+
+              {/* Privacy Notice */}
+              <p className="mt-3 text-xs text-text-muted">
+                🔒 Processed via Claude AI. Never stored. No account needed.
+              </p>              
+
         </section>
 
         {/* Main Glass Panel */}
@@ -211,11 +217,6 @@ setSummary("Error: Failed to convert to steps. Please try again.");
                   )}
                 </div>
               </div>
-
-              {/* Privacy Notice */}
-              <p className="text-xs text-text-muted mt-2 flex items-center gap-1">
-                🔒 Processed via Claude AI. Never stored. No account needed.
-              </p>              
 
               {/* Button Row */}
               <div className="mt-4 flex gap-2 sm:gap-3">
