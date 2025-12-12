@@ -168,12 +168,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
           <p className="mt-3 max-w-[520px] text-body text-text-secondary">
             Paste text below and Convert clear, numbered instructions.
           </p>
-
-              {/* Privacy Notice */}
-              <p className="mt-3 text-xs text-text-muted">
-                🔒 Processed via Claude AI. Never stored. No account needed.
-              </p>          
-
+			
         </section>
 
         {/* Main Glass Panel */}
@@ -193,6 +188,12 @@ setSummary("Error: Failed to convert to steps. Please try again.");
               <p className="mt-2 text-xs text-text-muted">
                 Paste or type any content — article, email, notes, etc.
               </p>
+
+              {/* Privacy Notice */}
+              <p className="mt-3 text-xs text-text-muted">
+                🔒 Processed via Claude AI. Never stored. No account needed.
+              </p>          
+
             </div>
 
             {/* Right Column - Output */}
