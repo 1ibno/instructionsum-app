@@ -186,7 +186,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
                 className="input-field mt-3 h-[260px] w-full resize-none rounded-input p-4 text-input text-text-primary"
               />
               <p className="mt-2 text-xs text-text-muted">
-                Paste or type any content — article, email, notes, etc.
+                Paste or type any content: article, email, notes, etc.
               </p>
 
               {/* Privacy Notice */}
