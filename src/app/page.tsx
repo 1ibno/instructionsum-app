@@ -212,6 +212,11 @@ setSummary("Error: Failed to convert to steps. Please try again.");
                 </div>
               </div>
 
+              {/* Privacy Notice */}
+              <p className="text-xs text-text-muted mt-2 flex items-center gap-1">
+                🔒 Processed via Claude AI. Never stored. No account needed.
+              </p>              
+
               {/* Button Row */}
               <div className="mt-4 flex gap-2 sm:gap-3">
                 <button
