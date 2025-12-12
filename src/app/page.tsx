@@ -172,7 +172,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
               {/* Privacy Notice */}
               <p className="mt-3 text-xs text-text-muted">
                 🔒 Processed via Claude AI. Never stored. No account needed.
-              </p>              
+              </p>          
 
         </section>
 
