@@ -64,6 +64,81 @@ export default function RootLayout({
       }).replace(/</g, '\\u003c')
     }}
   />
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is InstructionSum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "InstructionSum is a free AI-powered tool that converts any text into clear, numbered action steps or instructions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is InstructionSum free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, InstructionSum is completely free with no signup or subscription required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I use InstructionSum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use InstructionSum for recipes, tutorials, process documentation, how-to guides, or any content that should be presented as sequential steps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does InstructionSum differ from PointSum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "InstructionSum creates numbered, sequential action steps, while PointSum extracts key facts as non-sequential bullet points."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many steps does InstructionSum create?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "InstructionSum typically generates 4-8 numbered steps based on content complexity, focusing on clear, actionable instructions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What AI powers InstructionSum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "InstructionSum is powered by Claude AI from Anthropic, ensuring accurate step-by-step instructions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my input data private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Text is processed via Claude AI and never stored or shared. Your data remains completely private."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to create an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No account needed. Paste your text and receive numbered instructions instantly."
+          }
+        }
+      ]
+    }).replace(/</g, '\\u003c')
+  }}
+/>      
   {children}
   <Analytics />
 </body>
