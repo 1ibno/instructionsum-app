@@ -154,7 +154,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
       <div className="mx-auto max-w-content">
         {/* Header */}
         <header className="flex h-16 items-center justify-between">
-          <div className="text-base font-semibold text-accent">InstructionSum</div>
+          <div className="font-[family-name:var(--font-crimson)] text-2xl font-semibold text-accent">InstructionSum</div>
           <a href="https://sumkit.app" target="_blank" rel="noopener noreferrer" className="flex h-7 items-center rounded-pill border border-[rgba(255,255,255,0.10)] bg-[rgba(255,255,255,0.04)] px-3 transition-colors hover:border-[rgba(255,255,255,0.20)] hover:bg-[rgba(255,255,255,0.06)]">
             <span className="text-xs text-text-secondary">SumKit suite</span>
           </a>
