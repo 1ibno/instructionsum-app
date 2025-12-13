@@ -45,9 +45,28 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${crimsonPro.variable} antialiased min-h-screen`}>
-        {children}
-		<Analytics />
-      </body>
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "InstructionSum",
+        "url": "https://instructionsum.app",
+        "description": "Free AI tool to convert any text into clear, numbered action steps. No signup required.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }).replace(/</g, '\\u003c')
+    }}
+  />
+  {children}
+  <Analytics />
+</body>
     </html>
   );
 }
