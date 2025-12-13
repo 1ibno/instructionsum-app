@@ -1,5 +1,17 @@
 import type { Metadata } from "next";
+import { Inter, Crimson_Pro } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const crimsonPro = Crimson_Pro({ 
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-crimson",
+});
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
@@ -32,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${inter.variable} ${crimsonPro.variable} antialiased min-h-screen`}>
         {children}
 		<Analytics />
       </body>
