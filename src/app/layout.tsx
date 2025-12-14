@@ -39,7 +39,7 @@ twitter: {
   title: "InstructionSum - Free AI Text Summarizer",
   description: "Convert any text into clear, numbered action steps. Free, no signup required.",
   images: ["/og-image.png"]
-}
+},
   robots: {
     index: true,
     follow: true,
