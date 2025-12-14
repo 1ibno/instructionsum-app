@@ -20,17 +20,26 @@ export const metadata: Metadata = {
   keywords: ["instructions", "step-by-step", "action steps", "AI", "text summary", "extract steps", "convert text"],
   authors: [{ name: "SumKit" }],
   openGraph: {
-    title: "InstructionSum – Extract Actionable Steps from Any Text",
-    description: "Condense any text into clear, actionable step-by-step instructions. Free AI-powered summarization tool.",
-    url: "https://instructionsum.app",
-    siteName: "InstructionSum",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "InstructionSum – Extract Actionable Steps from Any Text",
-    description: "Condense any text into clear, actionable step-by-step instructions. Free AI-powered summarization tool.",
-  },
+  title: "InstructionSum - Free AI Text Summarizer",
+  description: "Convert any text into clear, numbered action steps. Free, no signup required.",
+  url: "https://instructionsum.app",
+  siteName: "InstructionSum",
+  images: [
+    {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "InstructionSum - Instant step-by-step instructions"
+    }
+  ],
+  type: "website"
+},
+twitter: {
+  card: "summary_large_image",
+  title: "InstructionSum - Free AI Text Summarizer",
+  description: "Convert any text into clear, numbered action steps. Free, no signup required.",
+  images: ["/og-image.png"]
+}
   robots: {
     index: true,
     follow: true,
