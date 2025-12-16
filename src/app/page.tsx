@@ -361,7 +361,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
                 </p>
               )}
               <p className="mt-3 text-center text-[11px] text-text-muted">
-                (No spam. Promise.)
+                
               </p>
             </div>
           )}
