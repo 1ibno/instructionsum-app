@@ -333,7 +333,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
           ) : (
             <div className="py-8">
               <p className="text-center text-body text-text-secondary">
-                Diggin' this tool? Super—'cause I'm building more. I'm a solopreneur crankin' out simple, free text tools (no sign-ups, no friction). If you wanna know when the next one's ready, drop your email below & I'll hit you up. No spam. Promise!
+                Diggin&apos; this tool? Super—&apos;cause I&apos;m building more. I&apos;m a solopreneur crankin&apos; out simple, free text tools (no sign-ups, no friction). If you wanna know when the next one&apos;s ready, drop your email below & I&apos;ll hit you up. No spam. Promise!
               </p>
               <form
                 onSubmit={handleEmailSubmit}
