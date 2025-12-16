@@ -360,9 +360,7 @@ setSummary("Error: Failed to convert to steps. Please try again.");
                   {emailError}
                 </p>
               )}
-              <p className="mt-3 text-center text-[11px] text-text-muted">
-                
-              </p>
+
             </div>
           )}
         </section>
